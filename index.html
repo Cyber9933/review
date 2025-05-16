@@ -3,44 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reviews</title>
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="MyWebSite" />
     <link rel="manifest" href="/site.webmanifest" />
+
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
 
 </head>
-    <body>
-    
-    <header class="container">
-         <img class="pilky" srs="./img/pilky.png" alt="Pilky">
-           
-        <nav class="main"> >  
+<body>
+    <div class="container"></div>
+        <header>
+         <div class="logo-container">
+            <img class="logo" src="./img/pilky.png" alt="pilky">
+        </div>
+        <nav class="main">   
             <a class="link active" href="#">About</a>
-            <a class="link activr" href="#">Home</a>
             <a class="link active" href="#">Shop</a>
+            <a class="link active" href="#">Home</a>
             <a class="link active" href="#">Learn</a>
             <a class="link active" href="#">Recipes</a>
         </nav>
+        <div class="icons">
+            <div class="icon" fa fa-search>
+                <i class="fa fa-search"></i>
+                
+            </div>
+            
+            <div class="icon" fa fa-shopping-cart>
+                <i class="fa fa-shopping-cart"></i>
+                
+            </div>
+            <div class="icon" fa fa-user>
+                <i class="fa fa-user"></i>
+               
+            </div>
+        </div>
            
     </header>
-    <main>
-        <h1>Reviews</h1>
-        <img src="./img/GirlSmile.png" alt="Girl Smile">
-            <div>
-                 <p>"Finally found an almond milk that doesn't compromise on taste. The natura; sweetness is a game-changer. My family can't get enough!"</p>
+    <div class="reviews-section">
+        <h2 class="reviews-title">Reviews</h2>
+        <div class="review-card">
+            <img src="./img/GirlsSmile.png" alt="Happy Girl" class="review-image">
+            <div class="review-content">
+                <div class="stars">★ ★ ★ ★ ★</div>
+                <p class="review-text">"Finally found an almond milk that doesn't compromise on taste. The natural sweetness is a game-changer. My family can't get enough!"</p>
+                <div class="reviewer">Sarah W</div>
+                <div class="job-title">Product Designer</div>
+                <div class="navigation-dots">
+                    <div class="dot">←</div>
+                    <div class="dot active">→</div>
+                </div>
             </div>
-    </main>
+        </div>
+    </div>
+
+
+    <div class="experience-section">
+        <div class="experience-content">
+            <h2 class="experience-title">Experience Pilky</h2>
+            <p class="experience-text">Immerse yourself in the pure joy of Almond Milk. Crafted with care, designed for simplicity, and perfect for your modern lifestyle. Elevate your taste experience - indulge in the essence of almonds, elevated to perfection.</p>
+            <a href="#" class="button">FOLLOW US</a>
+        </div>
 
     
-    <h2>Experience Pilky</h2>
-    <p>Immerse yourself in the pure joy of Almond Milk. Crafted with care. designed of simplicity for your morden lifestyle. Elevate your tase experience-include in the esence of almonds. elevated to perfection.</p>
-    <a href="">Follow us</a>
-
-
-
+  
+            <div class="experience-images">
+                <img class="main-img" src="./img/pieva.png" alt="pieva">
+                <img class="main-img" src="./img/kruopos.png" alt="kruopos">
+                <img class="main-img" src="./img/pakuotes.png" alt="pakuotes">
+                <img class="main-img" src="./img/stikline.png" alt="siktline">
+                <img class="main-img" src="./img/lapas.png" alt="lapas">
+            </div>
+            <div class="shape-1"></div>
+            <div class="shape-2"></div>
+        </div>
+    </div>
+    </div>
     </body>
 </html>
